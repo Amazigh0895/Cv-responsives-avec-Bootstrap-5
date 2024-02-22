@@ -1,0 +1,14 @@
+$utilities: () !default;
+$utilities:(
+  "object-fit": (
+  responsive: true,
+  property: object-fit,
+  values: (
+    contain: contain,
+    cover: cover,
+    fill: fill,
+    scale: scale-down,
+    none: none,
+  )
+),
+    );
